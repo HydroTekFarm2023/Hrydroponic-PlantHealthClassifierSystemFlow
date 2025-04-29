@@ -98,5 +98,3 @@ This project is an end-to-end system for analyzing plant health using AWS servic
 - Install dependencies:
   ```bash
   pip install streamlit boto3 python-dotenv
-
-  ![alt text](<Screenshot 2025-04-28 203253.png>)
