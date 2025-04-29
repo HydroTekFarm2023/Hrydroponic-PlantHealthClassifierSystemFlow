@@ -1,5 +1,7 @@
 # Plant Health End-to-End System
 
+Note: reach out for env file
+
 This project is an end-to-end system for analyzing plant health using AWS services and Twilio. The system allows users to upload plant images, analyze them for diseases, and receive notifications via MMS. The analysis results are stored in DynamoDB and displayed in a Streamlit UI.
 
 ## Features
@@ -38,7 +40,7 @@ This project is an end-to-end system for analyzing plant health using AWS servic
 1. **AWS Services**:
    - S3 bucket for storing images.
    - Lambda function with the necessary permissions.
-   - DynamoDB table (`PlantHealthAlerts`) for storing analysis results.
+   - DynamoDB table for storing analysis results.
    - Amazon Bedrock for image analysis.
 
 2. **Twilio Account**:
